@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "118396466572",
+    "firebase_url": "https://yorental-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "yorental",
+    "storage_bucket": "yorental.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118396466572:android:76874c7b3f4c711352d2a9",
+        "android_client_info": {
+          "package_name": "com.rizkyhamdana.yorental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118396466572-lhntcihmm35rfprs1sd5bva1rm2vdlg0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rizkyhamdana.yorental",
+            "certificate_hash": "19100e584f59e528274a8c2d4306898cbe4dfa70"
+          }
+        },
+        {
+          "client_id": "118396466572-bi310ea01gsmj769fb2210mln08jitk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxxCZdQweufp6emevXTeH_2uLpErYuQRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118396466572-bi310ea01gsmj769fb2210mln08jitk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YoRental</string>
+    <string name="daftar_title">Daftar Kendaraan Sewa</string>
+    <string name="gambar_kendaraan">Gambar Kendaraan</string>
+    <string name="deskripsi">Deskripsi:</string>
+    <string name="input_waktu_sewa">Input waktu sewa(hari):</string>
+    <string name="cek_biaya_dasar">Cek Biaya Dasar</string>
+    <string name="_1">1</string>
+    <string name="splashscreen">splashscreen</string>
+</resources>

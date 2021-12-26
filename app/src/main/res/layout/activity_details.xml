@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detail.DetailsActivity">
+
+    <ImageView
+        android:id="@+id/img_kendaraan"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/gambar_kendaraan"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/tv_nama_kendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semi"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_kendaraan"
+        tools:text="Honda Brio" />
+
+    <TextView
+        android:id="@+id/tv_jenis_kendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_nama_kendaraan"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama_kendaraan"
+        tools:text="Minibus" />
+
+    <TextView
+        android:id="@+id/tv_title_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_nama_kendaraan"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jenis_kendaraan"
+        android:text="@string/deskripsi" />
+
+    <TextView
+        android:id="@+id/tv_desc_kendaraan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/poppins_regular"
+        android:maxLines="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_title_description"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_description"
+        tools:text="Meski buatan pabrikan Cina, mobil ini jauh dari kesan mobil Cina karena kenyamanannya. Desain eksteriornya modern dan atraktif. Begitu pun interiornya yang tidak murahan dan canggih.
+Wuling Almaz juga memiliki mesin turbo yang menghasilkan tenaga dan torsi besar, dengan fitur yang melimpah.
+Kesan mewah juga terasa karena terdapat panoramic sunroof hingga head unit besar.
+Untuk dapur pacu semua varian, mobil ini memiliki konfigurasi mesin empat silinder segaris, 1.451 cc DOHC DVVT Turbocharger.
+Almaz memiliki tenaga 140 Hp di 5.200 rpm serta torsi 250 Nm dalam rentang 1.800-3.600 rpm. Varian termurahnya Wuling Almaz Smart Enjoy MT 2021 dengan harga Rp269,8 juta.
+" />
+
+    <TextView
+        android:id="@+id/tv_title_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/input_waktu_sewa"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_nama_kendaraan"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc_kendaraan" />
+
+    <EditText
+        android:id="@+id/et_waktu_sewa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:inputType="number"
+        android:text="@string/_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_input" />
+
+    <Button
+        android:id="@+id/btn_cek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/cek_biaya_dasar"
+        app:layout_constraintTop_toBottomOf="@+id/et_waktu_sewa" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
